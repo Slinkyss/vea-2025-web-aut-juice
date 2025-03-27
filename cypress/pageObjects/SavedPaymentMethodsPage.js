@@ -28,7 +28,7 @@ export class  SavedPaymentMethodsPage extends BasePage {
         return cy.get("#submitButton");
     }
 
-    static get matRow() {
+    static get validatePayment() {
         return cy.get('mat-row');
     }
     }
